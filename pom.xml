@@ -7,6 +7,7 @@
 	<packaging>pom</packaging>
 	
 	<modules>
+		<module>SpringCloud-Eureka</module>
 		<module>SpringCloud-Config</module>
 		<module>SpringCloud-Client</module>
 	</modules>
