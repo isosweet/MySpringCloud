@@ -10,6 +10,7 @@
 		<module>SpringCloud-Eureka</module>
 		<module>SpringCloud-Config</module>
 		<module>SpringCloud-Client</module>
+		<module>SpringCloud-BizServer-Payment</module>
 	</modules>
 	
 	<parent>
