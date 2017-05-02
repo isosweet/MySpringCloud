@@ -14,6 +14,7 @@
 		<module>SpringCloud-BizServ-Payment</module>
 		<module>SpringCloud-UserClient</module>
 		<module>SpringCloud-UserServcie</module>
+		<module>SpringCloud-UserClient-Ribbon</module>
 	</modules>
 	
 	<parent>
