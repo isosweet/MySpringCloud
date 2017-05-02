@@ -11,6 +11,7 @@
 		<module>SpringCloud-Config</module>
 		<module>SpringCloud-Client</module>
 		<module>SpringCloud-BizServer-Payment</module>
+		<module>SpringCloud-BizServ-Payment</module>
 	</modules>
 	
 	<parent>
