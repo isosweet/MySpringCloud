@@ -3,11 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.myspringcloud.userService</groupId>
-	<artifactId>SpringCloud-UserServcie</artifactId>
+	<groupId>com.myspringcloud.userClient</groupId>
+	<artifactId>SpringCloud-UserClient-Feign</artifactId>
 	<packaging>jar</packaging>
 
-	<name>SpringCloud-UserServcie</name>
+	<name>SpringCloud-UserClient-Feign</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -28,10 +28,10 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-eureka</artifactId>
-		</dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -39,12 +39,11 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>com.alibaba</groupId>
-			<artifactId>fastjson</artifactId>
-			<version>1.2.31</version>
-		</dependency>
-
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+        </dependency>
+		
 	</dependencies>
 
 	<build>
