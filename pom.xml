@@ -17,6 +17,7 @@
 		<module>SpringCloud-UserClient-Ribbon</module>
 		<module>SpringCloud-UserClient-Ribbon-Properties</module>
 		<module>SpringCloud-UserClient-Feign</module>
+		<module>SpringCloud-UserClient-Feign-cust</module>
 	</modules>
 	
 	<parent>
