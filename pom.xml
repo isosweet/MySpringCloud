@@ -18,6 +18,7 @@
 		<module>SpringCloud-UserClient-Ribbon-Properties</module>
 		<module>SpringCloud-UserClient-Feign</module>
 		<module>SpringCloud-UserClient-Feign-cust</module>
+		<module>SpringCloud-UserClient-Hystrix</module>
 	</modules>
 	
 	<parent>
