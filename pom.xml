@@ -19,6 +19,7 @@
 		<module>SpringCloud-UserClient-Feign</module>
 		<module>SpringCloud-UserClient-Feign-cust</module>
 		<module>SpringCloud-UserClient-Hystrix</module>
+		<module>SpringCloud-UserClient-Feign-Hystrix</module>
 	</modules>
 	
 	<parent>
